@@ -173,11 +173,11 @@ const CardDetail: React.FC<CardDetailProps> = ({ kartuData }) => {
                   </div>
                 </motion.div>
                 {isCardOpen && (
-                  <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+                  <motion.div initial={{ opacity: 1 }} animate={{ opacity: 1 }}>
                     <p className="uppercase font-medium text-sm">
                       {kartu.tanggal}
                     </p>
-                    <motion.div className="w-full py-3">
+                    <motion.div className="w-full py-3 h-64 overflow-scroll">
                       <p>" {kartu.ucapan} "</p>
                     </motion.div>
                   </motion.div>
@@ -186,7 +186,7 @@ const CardDetail: React.FC<CardDetailProps> = ({ kartuData }) => {
                   layout="position"
                   className="flex justify-between text-xs mt-3"
                 >
-                  <p className="font-medium">Dari {kartu.username} ❤️</p>
+                  
                   <motion.p layout="position" className="text-gray-300">
                     Tap untuk {isCardOpen ? "sembunyikan" : "munculkan"}
                   </motion.p>

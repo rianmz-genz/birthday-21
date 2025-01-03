@@ -178,7 +178,7 @@ const CardDetail: React.FC<CardDetailProps> = ({ kartuData }) => {
                       {kartu.tanggal}
                     </p>
                     <motion.div className="w-full py-3 h-64 overflow-scroll">
-                      <p>" {kartu.ucapan} "</p>
+                      <p>&apos; {kartu.ucapan} &apos;</p>
                     </motion.div>
                   </motion.div>
                 )}

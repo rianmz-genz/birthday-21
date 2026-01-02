@@ -1,0 +1,25 @@
+version: '3.8'
+
+services:
+  king-midas-fe:
+    container_name: vinkas_birthday
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "3001:3000"
+    environment:
+      - NODE_ENV=production
+      # Masukkan env variable lain di sini atau gunakan env_file
+      # Contoh jika API ada di container lain:
+      # - NEXT_PUBLIC_API_URL=http://backend-container:8080 
+    # Jika kamu punya file .env, uncomment baris di bawah:
+    # env_file:
+    #   - .env
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

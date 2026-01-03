@@ -285,7 +285,7 @@ const CardDetail: React.FC = () => {
 
                 <div className="min-h-[300px] mb-8 relative">
                     <AnimatePresence mode="wait">
-                        {!isLocked ? (
+                        {isLocked ? (
                             <motion.div 
                                 key="locked"
                                 initial={{ opacity: 0, scale: 0.9 }}

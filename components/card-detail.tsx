@@ -17,7 +17,7 @@ const vinkaCardData = {
   tanggal: "4 Januari 2026",
   from: "Vastroboy",
   ucapan:
-    "Selamat ulang tahun, Cantik. Makasih banyak udah berjuang sampe sekarang, selalu bahagia dan ceria selalu, Aku harap semakin dewasa semakin bijak dan semakin bahagia serta sehat selalu. Tetep jadi Vinka yang Aku kenal dari dulu yaaa!. Rasanya semakin Kita dewasa, kata-kata ngga cukup buat ngungkapin semuanya. Semua yang udah Kamu kasih ke Aku atas support, percaya bahwa Aku bisa wujudin mimpi-mimpi Kita semua, nemenin dari susah dan seneng sama-sama, itu priceless. Semoga Aku, Kamu, Kita selamanya!. So let's make today about you, about us, and moments we'll remember forever.",
+    "selamaat ulaang taaun sayaangggggg🔥💗🥰😍🥳 terimaa kaasih ataas 5 taaun bersamaa dan atas support serta kepercayaanmu ke aku buat bisa wujudin mimpi kita satu persatu. suka dan dukaa dilewati bersamaa dari aku yang ngojek, dirawat di rs sampe sekarang bisa kerja dari mana ajaa kaamu selalu adaa disetiap momen hidupku. aku harap semoga kaamu semaakin bahagiaa, cantik, sehaat, dan bijaaksanaa selalu. rasanyaa semakin dewasa kata kataa aja ngga cukup buaat semuaa yang udah kamu kaasih ke akuu. ayo perjalanan kita masih panjang kita jalani semuanyaa sama samaa trus yaa, semogaa kitaa bisa lulus wisuda bareng, bisa punya rumah sebelum menikah, lamaran, menikah, s2 barengg di aussie aamiin. apapun yang kamu inginkan ayo kita wujudkan bersama!. so let's make today about you, about us, and moments we will remember forever!",
   gallery: [
     { src: "/vinka.jpeg", caption: "💖" },
     { src: "/vinka2.jpeg", caption: "💖" },
@@ -336,7 +336,7 @@ const CardDetail: React.FC = () => {
 
                                 <div className="bg-white/40 p-5 rounded-xl border border-white/40 shadow-sm mx-1">
                                     <p className="text-slate-700 italic text-justify font-medium leading-relaxed text-sm">
-                                        &quot;{vinkaCardData.ucapan}&quot; -{vinkaCardData.from}
+                                        &quot;{vinkaCardData.ucapan}&quot; - {vinkaCardData.from}
                                     </p>
                                 </div>
                             </motion.div>
